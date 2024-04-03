@@ -1,0 +1,33 @@
+.square {
+    background: #585858;
+    border: 1px solid #000000;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 120px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+  }
+
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  body {
+    background-color: #a6a4a4;
+  }
+  button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: larger;
+  }
